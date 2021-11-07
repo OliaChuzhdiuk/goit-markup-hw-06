@@ -571,6 +571,7 @@ body {
 }
 
 .footer-social-title {
+    margin-right: 0;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -629,13 +630,15 @@ body {
 /* FOOTER FORM */
 
 .form-container {
-    display: flex;
+    margin-left: 93px;
 }
 
-.footer-form-box {}
+.footer-form-box {
+    margin-left: 93px;
+}
 
 .footer-form {
-    position: relative;
+    display: flex;
     width: 570px;
     height: 86px;
 }
@@ -658,11 +661,10 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    color: var(--accent-text-color);
+    color: var(--secondary-text-color);
 }
 
 .footer-input::placeholder {
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
@@ -670,12 +672,9 @@ body {
 }
 
 .footer-button {
-    display: flex;
+    margin-left: 12px;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     width: 200px;
     height: 50px;
     font-weight: 700;
