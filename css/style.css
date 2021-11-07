@@ -998,6 +998,7 @@ img {
 }
 
 .form-icon {
+    text-align: center;
     display: block;
     position: absolute;
     top: 50%;
